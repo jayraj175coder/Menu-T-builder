@@ -1,0 +1,55 @@
+/* MenuBuilder.css */
+
+.menu-builder-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .menu-builder-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-builder-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .add-category-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .add-category-button:hover {
+    background-color: #45a049;
+  }
+  
+  .tree-node-buttons {
+    margin-left: 10px;
+  }
+  
+  .tree-node-buttons button {
+    margin: 0 5px;
+    font-size: 0.8rem;
+  }
+  
+  .tree-node-buttons .ant-btn-dangerous {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .modal-input {
+    margin-top: 10px;
+  }
+  
